@@ -2,7 +2,7 @@ require_relative "../service_object"
 require_relative "../product_factory"
 require_relative "../purchase"
 
-class RecieptService < ServiceObject
+class ReceiptService < ServiceObject
 
   def call
     inputs = @args.first
